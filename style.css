@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-one: rgba(62, 22, 113, 1);
+  --color-two: rgba(158, 120, 207, 1);
+  --color-three: #ffff;
+  --list-background: rgba(21, 16, 28, 1);
+  --background: black;
+  --input-text: rgba(119, 119, 119, 1);
+  --checked: rgba(120, 207, 176, 1);
+}
+
+body {
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.main {
+  width: 432px;
+  border: 3px solid var(--list-background);
+  border-radius: 10px;
+}
+.up {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 381px;
+  border-radius: 10px;
+  border: 3px solid var(--color-one);
+  color: var(--input-text);
+}
+#add-task-button {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-two);
+  color: var(--color-three);
+  font-size: 32px;
+  border-radius: 10px;
+}
+li {
+  list-style: none;
+}
+.remove-btn {
+  width: 30px;
+  height: 30px;
+  background-color: var(--list-background);
+}
+.check-btn {
+  width: 30px;
+  height: 30px;
+  background-color: var(--list-background);
+}
+.list-div {
+  width: 432px;
+  color: var(--color-two);
+  background-color: var(--list-background);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.marked {
+  text-decoration: line-through;
+  color: var(--checked);
+}
+span {
+  font-size: 16px;
+  color: var(--color-three);
+  margin-bottom: 17px;
+}
+.span {
+  margin-bottom: 17px;
+}
